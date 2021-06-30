@@ -6,12 +6,12 @@
 }
 
 body {
-  background: gray;
+  background: #131321;
   font-family: 'Roboto', sans-serif;
 }
 
 header {
-  background: black;
+  background: #131321;
   padding: 18px;
 
   justify-content: center;
