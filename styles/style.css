@@ -10,18 +10,38 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/*------ HEADER ------*/
+
 header {
   background: #131321;
-  padding: 18px;
+  padding: 10px;
 
   justify-content: center;
   display: flex;
   align-items: center;
+
+  border-bottom: 1px solid #F5AC20;
+  position: relative;
 }
 
 header a {
   color: white;
   text-decoration: none;
-
-  margin: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  
 }
+
+header a:hover {
+  color: #F5AC20;
+  transition: 0.7s;
+}
+
+.img_logo {
+  height: 60px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/*------ INICIO ------*/
+
