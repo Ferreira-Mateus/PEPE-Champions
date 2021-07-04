@@ -65,6 +65,13 @@ header a:hover {
   grid-template-columns: 1fr;
 }
 
+.cards h1 {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 40px;
+  color: var(--orange-color);
+}
+
 .cards h1, p {
   margin: 0;
 }
@@ -82,7 +89,7 @@ img {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 5px;
 
   background: var(--darkBlue-color);
 }
